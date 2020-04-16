@@ -92,16 +92,18 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugins: hexo-generate-feed
 ## Themes: https://hexo.io/themes/
 theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
+- type: 'git'
   repo: git@github.com:JinHuaisong/iridescent.github.io.git
   branch: master
-
+- type: baidu_url_submitter
+  
 live2d:
   enable: true
   scriptFrom: local
@@ -120,3 +122,9 @@ live2d:
     show: true
   react:
     opacity: 0.7
+
+baidu_url_submit:
+  count: 5
+  host: iridescent.jinhs0417.club
+  token: WuGhDH0UeugTy3xQ
+  path: baidu_urls.txt
