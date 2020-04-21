@@ -676,10 +676,10 @@ google_analytics:
   only_pageview: false
 
 # Baidu Analytics
-baidu_analytics: # <app_id>
+baidu_analytics: 38a385b7607558b27e822b408c8a0429 # <app_id>
 
 # Growingio Analytics
-growingio_analytics: # <project_id>
+growingio_analytics:  # <project_id>
 
 # CNZZ count
 cnzz_siteid: 1278817705
